@@ -1,0 +1,795 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+#nav {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
+    /* position: fixed; */
+    /* background-color: red; */
+    
+
+
+}
+
+
+
+
+ #left {
+    display: flex;
+    gap: 13px;
+    padding-left: 10px;
+}
+ #left h4{
+    font-size: 15px;
+}
+
+  #center {
+    padding-right: 50px;
+}
+
+  #center h3 {
+
+
+    font-size: 25px;
+}
+
+  #right {
+    display: flex;
+    gap: 47px;
+    padding-right: 10px;
+
+}
+
+  #right i {
+    font-size: 20px;
+   
+}
+
+
+
+
+
+
+#main #textcenter {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    
+
+
+}
+
+#textcenter button {
+    /* position: relative; */
+    /* margin-top: 10px; */
+    padding: 14px 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    /* position: fixed; */
+}
+
+#textcenter .top {
+    display: flex;
+}
+
+#textcenter .top h4 {
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-right: 2px solid rgba(0, 0, 0, 0.178);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 30px;
+    
+}
+
+#textcenter .vedio {
+    /* padding: 30px 40px; */
+    height: 500px;
+    width: 95%;
+    /* margin: 0 40px; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+}
+
+#textcenter .vedio #icon1 {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.vedio #icon1 i {
+    font-size: 50px;
+    color: white;
+}
+
+#textcenter .vedio #icon2 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.vedio #icon2 i {
+    font-size: 55px;
+    color: white;
+}
+
+#textcenter .vedio #icon3 {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.vedio #icon3 i {
+    font-size: 55px;
+    color: white;
+}
+
+#dates {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+
+}
+
+.pop>h1 {
+    margin-bottom: 10px;
+}
+
+.popi .button button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.popi .button i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+
+
+.popi {
+    display: flex;
+    flex-direction: column;
+}
+
+.popi .popyy {
+    margin-top: 10px;
+}
+
+.popi .popyy h2 {
+    font-size: 12px;
+}
+
+
+
+#fooder {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin-top: 28px;
+}
+
+#fooder .col {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    padding: 35px 30px;
+
+    border-right: 1.5px solid rgba(0, 0, 0, 0.295);
+
+}
+
+#fooder .col:nth-child(1) .icon i {
+    font-size: 50px;
+
+
+}
+
+#fooder .col:nth-child(1) i {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#fooder .col:nth-child(1) h3 {
+    font-size: 15px;
+    margin: 10px 5px;
+    opacity: 0.6;
+}
+
+
+
+#fooder .col:nth-child(2) .icon2 i {
+    font-size: 50px;
+
+
+}
+
+#fooder .col:nth-child(2) i {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#fooder .col:nth-child(2) h3 {
+    font-size: 15px;
+    margin: 10px 5px;
+    opacity: 0.6;
+}
+
+#fooder .col:nth-child(3) .icon3 i {
+    font-size: 50px;
+
+
+}
+
+#fooder .col:nth-child(3) i {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#fooder .col:nth-child(3) h3 {
+    font-size: 15px;
+    margin: 10px 5px;
+    opacity: 0.6;
+}
+
+#fooder .col:nth-child(4) .icon4 i {
+    font-size: 50px;
+
+
+}
+
+#fooder .col:nth-child(4) i {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#fooder .col:nth-child(4) h3 {
+    font-size: 15px;
+    margin: 10px 5px;
+    opacity: 0.6;
+}
+
+#box {
+    width: 80%;
+    margin: 10%;
+    padding: 10px;
+    background-color: gray;
+
+}
+
+#box h3 {
+    margin-top: 50px;
+    font-size: 27px;
+    font-weight: 200;
+    color: white;
+
+
+}
+
+#box .icon {
+    margin-top: 30px;
+}
+
+#box .icon i {
+
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+
+}
+
+#bich {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 100%;
+
+}
+
+#priya {
+    width: 100%;
+    padding: 40px;
+
+}
+
+#bich h1 {
+    margin: 18px 40px;
+    font-weight: 40;
+
+}
+
+#bich i {
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+#image2 {
+    width: 100%;
+    position: relative;
+
+
+
+}
+
+#image2 img {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+
+}
+
+#image2 .circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.925);
+    border-radius: 50%;
+    position: absolute;
+    left: 6%;
+    bottom: 6%;
+    transition: all ease 0.5s;
+
+}
+
+.circle:hover {
+    background-color: black;
+}
+
+#bich #part2 {
+    display: flex;
+    align-items: center;
+
+    padding-left: 180px;
+
+}
+
+#part2 h1 {
+    font-size: 20px;
+}
+
+#part2 p {
+    opacity: 0.6;
+
+}
+
+#abhi {
+    width: 100%;
+    margin: 60px;
+
+
+
+}
+
+#abhi img {
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#abhika {
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.158);
+
+
+}
+
+
+#abhika img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+#abhika img:hover{
+    background-image: url(https://www.web-rover.co.uk/images/articles/rrsport1front.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+}
+
+#abhika #part3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.185);
+}
+
+#part3 .child h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+#part3 .child p {
+    opacity: 0.6;
+    margin: 10px;
+}
+
+#abhika button {
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 20px 20px;
+}
+
+#abhika button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#girl {
+    width: 100%;
+    padding: 60px;
+
+}
+
+#girl h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+#girl h4 {
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+#girl #image4 {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    height: 10%;
+    margin-top: 20px;
+
+
+
+}
+
+#girl #text1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    gap: 15px;
+
+
+}
+
+#text1 .text {
+    margin-bottom: 10px;
+
+
+}
+
+#bot {
+
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+
+#bot #tee {
+    margin-left: 100px;
+    display: flex;
+
+    gap: 70px;
+}
+
+#tee h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+#tee p {
+    opacity: 0.6;
+}
+
+#bot #too {
+    margin: 0 40px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+#too .tooelme {
+    width: 30%;
+    gap: 5%;
+
+
+
+}
+
+#too .tooelme:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#too .tooelme:nth-child(2) img {
+    width: 100%;
+    height: 100%;
+}
+
+#too .tooelme:nth-child(2) img {
+    width: 100%;
+    height: 100%;
+}
+
+#pinso {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.192);
+    display: flex;
+    gap: 10px;
+}
+
+#pinso .pincy {
+    width: 33%;
+    padding: 30px;
+
+}
+
+.pincy h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.pincy p {
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+#part5 {
+    width: 100%;
+    padding: 30px;
+
+}
+
+#part5 img {
+    width: 100%;
+    object-fit: cover;
+    padding: 0 50px;
+}
+
+#part6 {
+    width: 100%;
+
+
+
+}
+
+#part6 h1 {
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#part6 h4 {
+    margin-left: 100px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+#part6 img {
+    width: 100%;
+    height: 50%;
+    padding: 60px;
+}
+
+#part7 {
+    width: 100%;
+    padding: 30px;
+
+
+}
+
+#food {
+    margin: 30px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.226);
+
+}
+
+#part7 h1 {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#food .foodelm {
+    width: 23%;
+    padding: 10px;
+}
+
+#food .foodelm img {
+    width: 100%;
+
+}
+
+#food .foodelm h1 {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#food .foodelm p {
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 7px;
+}
+
+#part7 button {
+    margin-left: 30px;
+    border: none;
+}
+#part7 button:hover{
+    background-color:white;
+    color: black;
+}
+
+#part7 #boti {
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#part8 {
+    width: 100%;
+    padding: 60px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#part8 #write h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#write h4 {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 10px;
+    transition: all ease 0.2s;
+}
+
+#write h4:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.445);
+    display: inline-block;
+
+}
+#read h4:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.445);
+    display: inline-block;
+}
+#wrote h4:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.445);
+    display: inline-block;
+}
+
+#part8 #read h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#read h4 {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 10px;
+}
+
+#part8 #wrote3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#wrote h4 {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 10px;
+}
+
+#part7 #ready {
+    display: flex;
+    flex-direction: column;
+}
+
+#part8 #ready h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#ready #ico {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ico i {
+    font-size: 20px;
+}
+
+#nav2 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-top: 2px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.164);
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#nav2>h3 {
+    font-size: 15px;
+    opacity: 0.6;
+    transition: all ease 0.2s;
+
+}
+
+#nav2 h3:hover {
+    border-bottom: 2px solid black;
+}
+#part9{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 24px;
+    
+}
+#part9 .circle{
+    width: 110px;
+    height: 80px;
+    border: 2px solid rgba(117, 0, 0, 0.555);
+    border-radius: 70%;
+    position: relative;
+}
+.circle h5{
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    font-size: 14px;
+}
+.circle:hover{
+    background-color: black;
+    color: white;
+}
